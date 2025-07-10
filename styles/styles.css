@@ -168,6 +168,65 @@ main section {
     text-align: center;
 }
 
+/* Feedback user styles */
+
+.feedback-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feedback-cards {
+    display: flex;
+    column-gap: 25px;
+}
+
+.single-feedback {
+    background-color: #ffffff;
+    border: 1px solid #D6DDED;
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.rating-list {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+    padding: 0;
+    margin: 0px 0px 15px;
+}
+
+.rating-list li {
+    list-style: none;
+}
+
+.feedback-summary {
+    margin-bottom: 10px;
+}
+
+.feedback-text {
+    margin-bottom: 20px;
+}
+
+.feedback-giver {
+    display: flex;
+    column-gap: 15px;
+}
+
+.feedback-giver img {
+    border-radius: 50%;
+}
+
+.feedbacker-name {
+    opacity: 50%;
+}
+
+.date {
+    opacity: 50%;
+    font-size: 15px;
+}
+
 /* Let’s get in touch section styles */
 .get-in-touch-area {
     display: flex;
