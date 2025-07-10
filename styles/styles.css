@@ -228,3 +228,41 @@ main section {
     width: 100%;
     padding: 22px 35px;
 }
+
+/* footer styles */
+.footer-area {
+    background-color: #ffffff;
+    padding: 150px 100px;
+}
+
+.footer-title {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 16px;
+    color: #8987A1;
+    width: 530px;
+    text-align: center;
+    margin: 0px auto 25px;
+}
+
+.footer-link-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link-list li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.footer-link-list li a {
+    text-decoration: none;
+    color: #8987A1;
+}
