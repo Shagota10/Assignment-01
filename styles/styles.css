@@ -11,6 +11,10 @@ p {
     color: #252432;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -162,4 +166,65 @@ main section {
     color: #000000;
     opacity: 50%;
     text-align: center;
+}
+
+/* Let’s get in touch section styles */
+.get-in-touch-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.get-in-touch-title {
+    font-size: 95px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.get-in-touch-form label {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.get-in-touch-form input[type="text"],
+.get-in-touch-form input[type="email"] {
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 25px;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 50%);
+    box-sizing: border-box;
+}
+
+.get-in-touch-form textarea {
+    height: 135px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 25px;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 50%);
+    box-sizing: border-box;
+}
+
+.get-in-touch-form .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 22px 35px;
 }
