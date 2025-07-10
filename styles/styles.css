@@ -8,6 +8,7 @@ h6,
 p {
     margin: 0px;
     padding: 0px;
+    color: #252432;
 }
 
 .open-sans-normal {
@@ -37,7 +38,7 @@ p {
 
 /* header  */
 .header {
-    background-image: url(../Assets/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -49,8 +50,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
     padding: 45px 0px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .nav-title {
@@ -88,4 +90,42 @@ nav li a {
     max-width: 905px;
     text-align: center;
     margin-bottom: 50px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+
+/* action section styles */
+.action-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.action-description {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    max-width: 520px;
+    opacity: 0.5;
+}
+
+.action-image {
+    width: 400px;
+    height: 330px;
+    border-radius: 48px;
 }
